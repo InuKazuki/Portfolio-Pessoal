@@ -1,211 +1,204 @@
 /* style.css */
+
+/* Estilo básico do corpo */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
 }
 
-/* Estilo do container */
+/* Estilo do container principal */
 .container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1080px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 0 20px; /* Adiciona preenchimento lateral */
 }
 
+/* Estilo do cabeçalho */
 header {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    padding: 10px 0; /* Preenchimento do cabeçalho */
 }
 
+/* Estilo do menu de navegação */
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    display: flex; /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens */
+    list-style-type: none; /* Remove as bolinhas da lista */
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 15px; /* Espaçamento lateral entre os itens */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Torna o texto mais grosso */
 }
 
 nav ul li a:hover {
-    color: #ccc;
+    color: #ccc; /* Cor do texto ao passar o mouse */
 }
 
+/* Estilo da área principal */
 main {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-.imagem1 {
-    display: block;
-    margin: 20px auto;
-    width: 25%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
-}
-
-/* Seção principal de boas-vindas */
-.hero {
-    background-color: #333;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-}
-
-.hero .btn {
-    padding: 15px 30px;
-    background-color: white;
-    color: #333;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.hero .btn:hover {
-    background-color: rgb(80, 80, 76);
-    color: white;
-}
-
-/* Seção introdutória */
-.intro {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: #fff;
-}
-
-.intro h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.intro h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.intro p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+    padding: 20px; /* Preenchimento da área principal */
+    text-align: center; /* Centraliza o texto */
 }
 
 /* Estilo do rodapé */
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 10px 0; /* Preenchimento do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    width: 100%; /* Largura total do rodapé */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+}
+
+/* Estilo da imagem de perfil */
+.imagem1 {
+    display: block; /* Exibe a imagem como bloco */
+    margin: 20px auto; /* Centraliza a imagem com margem superior/inferior */
+    width: 25%; /* Largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
+}
+
+/* Reset básico para todos os elementos */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total do elemento */
+}
+
+/* Estilo do corpo com cor de fundo e linha de altura */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+    color: #333; /* Cor do texto */
+    background-color: #f5f5f5; /* Cor de fundo da página */
+}
+
+/* Estilo da seção principal de boas-vindas */
+.hero {
+    background-color: #333; /* Cor de fundo da seção */
+    color: white; /* Cor do texto */
+    padding: 60px 20px; /* Preenchimento da seção */
+    text-align: center; /* Centraliza o texto */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Tamanho do parágrafo */
+    margin-bottom: 30px; /* Espaçamento inferior */
+}
+
+/* Estilo do botão */
+.hero .btn {
+    padding: 15px 30px; /* Preenchimento do botão */
+    background-color: white; /* Cor de fundo do botão */
+    color: #333; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.hero .btn:hover {
+    background-color: rgb(80, 80, 76); /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo da seção introdutória */
+.intro {
+    padding: 40px 20px; /* Preenchimento da seção */
+    text-align: center; /* Centraliza o texto */
+    background-color: #fff; /* Cor de fundo da seção */
+}
+
+.intro h1, .intro h2 {
+    font-size: 2rem; /* Tamanho dos títulos */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.intro p {
+    font-size: 1.1rem; /* Tamanho do parágrafo */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
 }
 
 /* Estilo da seção de portfólio */
 .portfolio {
-    padding: 40px 20px;
-    text-align: center;
+    padding: 40px 20px; /* Preenchimento da seção */
+    text-align: center; /* Centraliza o texto */
 }
 
 .portfolio h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2.5rem; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
 
 .portfolio p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
+    font-size: 1.2rem; /* Tamanho do parágrafo */
+    margin-bottom: 30px; /* Espaçamento inferior */
 }
 
 /* Estilo para a lista de repositórios */
 .repositorios {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o preenchimento */
 }
 
 .repositorios li {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Espaçamento inferior entre os itens da lista */
 }
 
 .repositorios li a {
-    font-size: 1.2rem;
-    color: #4CAF50;
-    text-decoration: none;
-    font-weight: bold;
-    border: 2px solid transparent;
-    padding: 10px 15px;
-    transition: border 0.3s ease, background-color 0.3s ease;
+    font-size: 1.2rem; /* Tamanho do texto do link */
+    color: #4CAF50; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Torna o texto mais grosso */
+    border: 2px solid transparent; /* Borda invisível inicialmente */
+    padding: 10px 15px; /* Preenchimento do link */
+    transition: border 0.3s ease, background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
 }
 
 .repositorios li a:hover {
-    border-color: #4CAF50;
-    background-color: #f0f0f0;
-    border-radius: 5px;
+    border-color: #4CAF50; /* Borda visível ao passar o mouse */
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas ao passar o mouse */
 }
 
 /* Estilo para a seção de formação */
 .formacao {
-    padding: 40px 20px;
-    text-align: center;
+    padding: 40px 20px; /* Preenchimento da seção */
+    text-align: center; /* Centraliza o texto */
 }
 
 .formacao h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 2.5rem; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
 
 .formacao-lista {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.2rem;
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o preenchimento */
+    font-size: 1.2rem; /* Tamanho do texto da lista */
 }
 
 .formacao-lista li {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Espaçamento inferior entre os itens da lista */
 }
 
 .formacao-lista li strong {
-    font-weight: bold;
+    font-weight: bold; /* Destaca o texto forte */
 }
