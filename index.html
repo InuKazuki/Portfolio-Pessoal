@@ -1,45 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Definições básicas do documento -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização para ser responsiva em dispositivos móveis -->
+    <title>Meu Site</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo para estilização -->
 </head>
 <body>
     <header>
         <nav>
+            <!-- Menu de navegação com links para acessar outras páginas do site -->
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Home</a></li> <!-- Link para a página inicial -->
+                <li><a href="sobre.html">Sobre Mim</a></li> <!-- Link para a página "Sobre Mim" -->
+                <li><a href="formacao.html">Formação</a></li> <!-- Link para a página de "Formação" -->
+                <li><a href="portfolio.html">Portfólio</a></li> <!-- Link para a página de "Portfólio" -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a página de "Contato" -->
             </ul>
         </nav>
     </header>
 
     <div class="container">
+        <!-- Container para centralizar e limitar a largura do conteúdo principal -->
+        
+        <main>
+            <!-- Seção introdutória da página -->
+            <section class="intro">
+                <h1>Bem vindo ao meu site!</h1> <!-- Título de boas-vindas -->
+                <p>Esse é o meu site pessoal onde você pode conhecer mais sobre mim, minha formação, meu portfólio e entrar em contato!</p> <!-- Texto introdutório -->
+            </section>
 
-    <main>
-        <section class="intro">
-            <h1>Bem vindo ao meu site!</h1>
-            <p>Esse é o meu site pessoal onde você pode conhecer mais sobre mim, minha formação, meu portfólio e entrar em contato!</p>
-        </section>
-        <section class="hero">
-            <h1>Descubra mais sobre mim</h1>
-            <p>Veja mais sobre mim, minha formação e os projetos que tenho trabalhado.</p>
-            <a href="sobre.html" class="btn">Saiba Mais</a>
-        </section>
-        <section class="intro">
-            <h2>Sobre o Site</h2>
-            <p>Este site foi criado para mostrar um pouco do meu trabalho como desenvolvedor, bem como minha formação acadêmica e projetos realizados.</p>
-        </section>
-    </main>
+            <!-- Seção com uma "chamada para ação" para explorar o site -->
+            <section class="hero">
+                <h1>Descubra mais sobre mim</h1> <!-- Título principal desta seção -->
+                <p>Veja mais sobre mim, minha formação e os projetos que tenho trabalhado.</p> <!-- Breve explicação -->
+                <a href="sobre.html" class="btn">Saiba Mais</a> <!-- Botão/link para a página "Sobre Mim" -->
+            </section>
 
+            <!-- Seção adicional de introdução sobre o site -->
+            <section class="intro">
+                <h2>Sobre o Site</h2> <!-- Título desta subseção -->
+                <p>Este site foi criado para mostrar um pouco do meu trabalho como desenvolvedor, bem como minha formação acadêmica e projetos realizados.</p> <!-- Explicação sobre o objetivo do site -->
+            </section>
+        </main>
     </div>
 
     <footer>
+        <!-- Rodapé com informação sobre o desenvolvedor -->
         <p>Desenvolvido por Vinícius Silveira Martins</p>
     </footer>
 

@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Definições básicas do documento -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a visualização para ser responsiva em dispositivos móveis -->
+    <title>Meu Site</title> <!-- Título da página na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
     <header>
         <nav>
+            <!-- Menu de navegação com links para outras páginas -->
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Home</a></li> <!-- Link para a página inicial -->
+                <li><a href="sobre.html">Sobre Mim</a></li> <!-- Link para a página "Sobre Mim" -->
+                <li><a href="formacao.html">Formação</a></li> <!-- Link para a página "Formação" -->
+                <li><a href="portfolio.html">Portfólio</a></li> <!-- Link para a página "Portfólio" -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a página "Contato" -->
             </ul>
         </nav>
     </header>
 
     <div class="container">
+        <!-- Container que agrupa o conteúdo da página e o centraliza -->
+        
+        <main>
+            <!-- Seção do portfólio -->
+            <section class="portfolio">
+                <h1>Portfólio</h1> <!-- Título da seção -->
 
-    <main>
-        <section class="portfolio">
-            <h1>Portfólio</h1>
-            <p>Aqui está minha página do GitHub e alguns projetos disponíveis:</p>
+                <!-- Breve introdução sobre o portfólio -->
+                <p>Aqui está minha página do GitHub e alguns projetos disponíveis:</p>
 
-            <!-- Lista de repositórios com links para o GitHub -->
-            <ul class="repositorios">
-                <li><a href="https://github.com/InuKazuki" target="_blank">Minha página do GitHub</a></li>
-                <li><a href="https://github.com/InuKazuki/PORTFOLIO_SENAI" target="_blank">Projetos curso técnico - SENAI</a></li>
-                <li><a href="https://github.com/InuKazuki/The-Madness-Of-Insanity" target="_blank">Projeto jogo em renpy</a></li>
-            </ul>
-        </section>
-    </main>
-
+                <!-- Lista de links para os repositórios no GitHub -->
+                <ul class="repositorios">
+                    <li><a href="https://github.com/InuKazuki" target="_blank">Minha página do GitHub</a></li> <!-- Link para o perfil no GitHub -->
+                    <li><a href="https://github.com/InuKazuki/PORTFOLIO_SENAI" target="_blank">Projetos curso técnico - SENAI</a></li> <!-- Link para o repositório de projetos do curso técnico -->
+                    <li><a href="https://github.com/InuKazuki/The-Madness-Of-Insanity" target="_blank">Projeto jogo em renpy</a></li> <!-- Link para o repositório de um jogo em renpy -->
+                </ul>
+            </section>
+        </main>
     </div>
 
     <footer>
+        <!-- Rodapé da página -->
         <p>Desenvolvido por Vinícius Silveira Martins</p>
     </footer>
 </body>

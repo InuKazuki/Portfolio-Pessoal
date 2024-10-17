@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="contato.css">
+    <!-- Define o tipo de documento e configurações de idioma -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o layout para ser responsivo -->
+    <title>Contato</title> <!-- Define o título da página na aba do navegador -->
+    <link rel="stylesheet" href="contato.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
     <header>
         <nav>
+            <!-- Menu de navegação com links para as diferentes páginas -->
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre Mim</a></li>
-                <li><a href="formacao.html">Formação</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="index.html">Home</a></li> <!-- Link para a página inicial -->
+                <li><a href="sobre.html">Sobre Mim</a></li> <!-- Link para a página "Sobre Mim" -->
+                <li><a href="formacao.html">Formação</a></li> <!-- Link para a página de formação -->
+                <li><a href="portfolio.html">Portfólio</a></li> <!-- Link para a página de portfólio -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a página de contato -->
             </ul>
         </nav>
     </header>
+
     <main>
-        <h1>Entre em contato</h1>
-        <form action="#" method="POST">
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br>
+        <h1>Entre em contato</h1> <!-- Título da página de contato -->
+        
+        <!-- Formulário de contato -->
+        <form action="#" method="POST"> <!-- O formulário será enviado via método POST (sem back-end configurado) -->
+            <label for="name">Nome:</label> <!-- Rótulo para o campo "Nome" -->
+            <input type="text" id="name" name="name" required><br> <!-- Campo de texto obrigatório para o nome -->
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <label for="email">Email:</label> <!-- Rótulo para o campo "Email" -->
+            <input type="email" id="email" name="email" required><br> <!-- Campo de texto obrigatório para o email, com validação de formato -->
 
-            <label for="message">Mensagem:</label>
-            <textarea name="message" id="message" required></textarea><br>
+            <label for="message">Mensagem:</label> <!-- Rótulo para o campo "Mensagem" -->
+            <textarea name="message" id="message" required></textarea><br> <!-- Campo de texto maior para a mensagem -->
 
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar"> <!-- Botão para enviar o formulário -->
         </form>
     </main>
+
     <footer>
-        <p>Desenvolvido por Vinícius Silveira Martins</p>
+        <p>Desenvolvido por Vinícius Silveira Martins</p> <!-- Rodapé com nome do desenvolvedor -->
     </footer>
-    <script src="script.js"></script>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript externo -->
 </body>
 </html>
