@@ -43,8 +43,9 @@ nav ul li a:hover {
 
 /* Estilo da área principal */
 main {
-    padding: 20px; /* Preenchimento da área principal */
+    padding: 20px; /* Ajuste o preenchimento da área principal */
     text-align: center; /* Centraliza o texto */
+    margin-bottom: 60px; /* Adiciona uma margem inferior para evitar que o conteúdo fique atrás do rodapé */
 }
 
 /* Estilo do rodapé */
